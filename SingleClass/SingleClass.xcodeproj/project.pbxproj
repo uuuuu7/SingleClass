@@ -15,6 +15,8 @@
 		C00BC8E01CF57F2800A2DF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00BC8DE1CF57F2800A2DF6B /* LaunchScreen.storyboard */; };
 		C00BC8EB1CF57F2800A2DF6B /* SingleClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC8EA1CF57F2800A2DF6B /* SingleClassTests.m */; };
 		C00BC8F61CF57F2800A2DF6B /* SingleClassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC8F51CF57F2800A2DF6B /* SingleClassUITests.m */; };
+		C00BC9051CF57F7100A2DF6B /* SingleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC9041CF57F7100A2DF6B /* SingleClass.m */; };
+		C00BC9091CF5870C00A2DF6B /* SingHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC9081CF5870C00A2DF6B /* SingHttpTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		C00BC8F11CF57F2800A2DF6B /* SingleClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00BC8F51CF57F2800A2DF6B /* SingleClassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleClassUITests.m; sourceTree = "<group>"; };
 		C00BC8F71CF57F2800A2DF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00BC9031CF57F7100A2DF6B /* SingleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleClass.h; sourceTree = "<group>"; };
+		C00BC9041CF57F7100A2DF6B /* SingleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleClass.m; sourceTree = "<group>"; };
+		C00BC9061CF580F100A2DF6B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C00BC9071CF5870C00A2DF6B /* SingHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingHttpTool.h; sourceTree = "<group>"; };
+		C00BC9081CF5870C00A2DF6B /* SingHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingHttpTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				C00BC8D41CF57F2800A2DF6B /* AppDelegate.m */,
 				C00BC8D61CF57F2800A2DF6B /* ViewController.h */,
 				C00BC8D71CF57F2800A2DF6B /* ViewController.m */,
+				C00BC9061CF580F100A2DF6B /* Header.h */,
+				C00BC9031CF57F7100A2DF6B /* SingleClass.h */,
+				C00BC9041CF57F7100A2DF6B /* SingleClass.m */,
+				C00BC9071CF5870C00A2DF6B /* SingHttpTool.h */,
+				C00BC9081CF5870C00A2DF6B /* SingHttpTool.m */,
 				C00BC8D91CF57F2800A2DF6B /* Main.storyboard */,
 				C00BC8DC1CF57F2800A2DF6B /* Assets.xcassets */,
 				C00BC8DE1CF57F2800A2DF6B /* LaunchScreen.storyboard */,
@@ -270,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00BC9091CF5870C00A2DF6B /* SingHttpTool.m in Sources */,
+				C00BC9051CF57F7100A2DF6B /* SingleClass.m in Sources */,
 				C00BC8D81CF57F2800A2DF6B /* ViewController.m in Sources */,
 				C00BC8D51CF57F2800A2DF6B /* AppDelegate.m in Sources */,
 				C00BC8D21CF57F2800A2DF6B /* main.m in Sources */,

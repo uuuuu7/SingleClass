@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SingleClass.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SingleClass *single1 = [SingleClass shareInstance];
+    SingleClass *single2 = [SingleClass shareInstance];
+    SingleClass *single3 = [SingleClass shareInstance];
+    SingleClass *single4 = [[SingleClass alloc]init];
+    NSLog(@"%p%p%p%p",single1,single2,single3,single4);
+    
 }
 
 - (void)didReceiveMemoryWarning {
